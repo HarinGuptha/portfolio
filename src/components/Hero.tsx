@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
-import profileImage from "../assets/profile.png";
+
 
 
 export function Hero() {
@@ -57,11 +57,7 @@ export function Hero() {
           className="flex-1 relative"
         >
           <div className="relative w-full max-w-md mx-auto aspect-[3/4] rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
-            <img 
-              src={profileImage} 
-              alt="Dwarakesh Gupta" 
-              className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-            />
+
             <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
           </div>
           
